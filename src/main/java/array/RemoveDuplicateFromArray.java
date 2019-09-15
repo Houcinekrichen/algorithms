@@ -31,7 +31,7 @@ public class RemoveDuplicateFromArray {
      * method is simple, it first sort the array and then compare adjacent
      * objects, leaving out duplicates, which is already in the result.
      */
-    private static int[] removeDuplicates(int[] numbersWithDuplicates) {
+    public static int[] removeDuplicates(int[] numbersWithDuplicates) {
 
         // Sorting array to bring duplicates together
         Arrays.sort(numbersWithDuplicates);
